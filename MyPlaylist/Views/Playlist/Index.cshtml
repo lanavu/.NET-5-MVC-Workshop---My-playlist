@@ -1,0 +1,21 @@
+<h1>@Model.Name</h1>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Artist</th>
+      <th>Plays</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var track in @Model.Playlist)
+    {
+      <tr>
+        <td><a asp-controller="Track" asp-action="Index" asp-route-id="@track.Id"> @track.Title</a></td>
+        <td>@track.Artist</td>
+        <td>@track.NumPlays</td>
+      </tr>
+    }
+  </tbody>
+</table>
