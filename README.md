@@ -1,6 +1,5 @@
-# .NET5 MVC
+# .NET5 MVC Workshop
 
-Workshop
 Velkommen til workshop med Knowit Experience! Her finner du instruksjoner til hvordan du får satt opp og kjørt en ny web applikasjon med .NET 5 og C# på din lokale maskin. Videre vil du få oppgaver som skal gjøre deg kjent med web applikasjonen. Temaet for workshoppen er å kunne opprette en enkel musikkspilleliste.
 
 ## Introduksjon - Opprett et nytt prosjekt
